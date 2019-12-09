@@ -1,0 +1,219 @@
+body {
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin: 0;
+
+}
+p {
+font-family: 'Pacifico';font-size: 22px;
+  font-size: 45px;
+  text-align:center;
+}  
+
+
+.top { 
+	height:20%;
+	width:100%;
+	display:flex;
+} 
+
+.bottom { 
+	height:80%;
+	width: 100%;
+	display:block;
+} 
+
+.top-inside{ 
+	height: 100%;
+	width:70%;
+	display:flex;
+
+} 
+
+.second-top{ 
+	height:100%;
+	width:30%;
+	display:none;
+} 
+
+.double{ 
+	height:50%;
+	width:100%;
+	display: block;
+} 
+
+.single{ 
+	height: calc(100%/2);
+	width: 100%;
+	display:flex;
+} 
+
+.small { 
+	height:100%;
+	width:40%;
+	display:flex;
+
+} 
+
+.big {
+	height:100%;
+	width:60%;
+	display:flex;
+} 
+
+.pointer {cursor: pointer;}
+
+.grow {
+		transition: all 2.s ease-in-out;
+} 
+
+.grow:hover{ 
+	transform: scale(1.3);
+	opacity: 0.5;
+} 
+
+.baby-blue { background-color: #d2d7fa;}
+.baby-yellow { background-color: #faf6d2;}
+.baby-brown { background-color: #debd95;} 
+.baby-winter { background-color: #8cb8ab;} 
+.baby-pink{background-color: #fad4d2;}
+.pink { background-color: #f288c6; }
+.blue{background-color: #146eff;}
+.yellow { background-color: #f6ff4d; }
+.neworange { background-color: #ffdbfc; }
+.green{background-color:#16fa2d;}
+.purple {background-color:#54077d;}
+.light_pink { background-color: #f7c8e8;} 
+.grey {background-color:#878386;}
+.black{ background-color: #000000; }
+.light-grey{ background-color:E3DFDE;}
+.light-brown { background-color: #ffccb3;} 
+ 
+
+
+
+
+	
+/* the media query is when I want to add breakpoints within the webpage. it makes changes to the diplay of the content */
+@media only screen and (max-width: 1100px) {
+	
+	.double {
+		height:50%;
+		width:100%;
+		display:flex;
+
+	} 
+	
+	.single{
+		height:100%;
+		width:50%;
+		display:block;
+
+	} 
+
+	.small { 
+		height:20%;
+		width:100%;
+		display:flex;
+	} 
+	
+	.big { 
+		height:80%;
+		width:100%;
+		display:flex;
+	} 
+
+	.contain-img { 
+	max-height: 70%;
+	max-width:100%;
+}
+	.center-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+	p {
+	font-family: 'Pacifico';font-size: 22px;
+	font-size: 45px;
+	text-align:center;
+}} 
+
+
+@media only screen and (max-width: 800px) {
+	
+	.double {
+		height:50%;
+		width:100%;
+		display:block;
+
+	} 
+	
+	.single{
+		height:50%;
+		width:100%;
+		display:block;
+
+	} 
+
+	.small { 
+		height:40%;
+		width:100%;
+		display:flex;
+	} 
+	
+	.big { 
+		height:60%;
+		width:100%;
+		display:flex;
+	} 
+
+	.contain-img { 
+	max-height: 70%;
+	max-width:100%;
+}
+
+	.center-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+ 
+	p {
+		font-family: 'Pacifico';font-size: 22px;
+		font-size: 45px;
+		text-align:center;
+	}
+
+}
+
+	.invisable { 
+	display:none;
+	visibility:hidden;
+} 
+	.center-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+	.contain-img { 
+	max-height: 80%;
+	max-width:100%;
+} 
+
+	.center-text { 
+	text-align:center;
+} 
+
+	.flex-container {
+	display: flex;
+	flex-wrap: wrap; 
+	height: 50%;
+	width: 100%;
+}
+	p {
+		font-family: 'Pacifico';font-size: 22px;
+		font-size: 45px;
+		text-align:center;
+}
