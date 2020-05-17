@@ -11,6 +11,8 @@ var h=document.getElementById ("two");
 var i=document.getElementById ("three");
 var j=document.getElementById ("four");
 var seasons= 1 
+//array
+boxes = [b,c,d,e]
 
 function switchImage(){
 	  ( b.src.match("images/springleaves.png"))
