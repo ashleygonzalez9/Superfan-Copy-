@@ -72,11 +72,11 @@ function switchImage4(){
 //} 
 
 
-function resetAll(){ 
-	b.src.classlist.add("first");
-	c.src.classlist.add("second");
-	d.src.classlist.add("third");
-	e.src.classlist.add("fourth");
+function resetAll(This){ 
+	b.classlist.add("first");
+	c.classlist.add("second");
+	d.classlist.add("third");
+	e.classlist.add("fourth");
 }
 
 
