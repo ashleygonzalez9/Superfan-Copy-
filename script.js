@@ -73,10 +73,10 @@ function switchImage4(){
 
 
 function resetAll(){ 
-	b.src.classlist.add("images/springleaves.png");
-	c.src.classlist.add("images/summerflowers.png");
-	d.src.classlist.add("images/fall_button.png");
-	e.src.classlist.add("images/winter_button.png");
+	b.src.classlist.add("first");
+	c.src.classlist.add("second");
+	d.src.classlist.add("third");
+	e.src.classlist.add("fourth");
 }
 
 
