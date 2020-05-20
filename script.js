@@ -1,15 +1,15 @@
 // call this function when "orange-kid" is clicked!
 
-var a=document.getElementById ("button");
-var b=document.getElementById("first");
-var c=document.getElementById ("second");
-var d=document.getElementById ("third");
-var e=document.getElementById ("fourth");
+var a = document.getElementById ("button");
+var b = document.getElementById("first");
+var c = document.getElementById ("second");
+var d = document.getElementById ("third");
+var e = document.getElementById ("fourth");
 var f = document.getElementById("show");
-var g=document.getElementById ("one");
-var h=document.getElementById ("two");
-var i=document.getElementById ("three");
-var j=document.getElementById ("four");
+var g = document.getElementById ("one");
+var h = document.getElementById ("two");
+var i = document.getElementById ("three");
+var j = document.getElementById ("four");
 var seasons= 1 
 
 
@@ -74,10 +74,10 @@ function switchImage4(){
 
 
 function resetAll(el){ 
-	b.classlist.add( );
-	c.classlist.add( );
-	d.classlist.add( );
-	e.classlist.add( );
+	b.add();
+	c.add();
+	d.add();
+	e.add();
 }
 
 
