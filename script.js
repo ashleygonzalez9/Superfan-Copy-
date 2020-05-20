@@ -74,10 +74,11 @@ function switchImage4(){
 
 
 function resetAll(el){ 
-	b.add();
-	c.add();
-	d.add();
-	e.add();
+	b.add("images/springleaves.png");
+	c.add("images/summerflowers.png");
+	d.add("images/fall_button.png");
+	e.add("images/winter_button.png");
+	
 }
 
 
