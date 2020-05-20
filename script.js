@@ -74,7 +74,7 @@ function switchImage4(){
 //} 
 
 
-function resetAll(This){ 
+function resetAll(el){ 
 	b.classlist.add("first");
 	c.classlist.add("second");
 	d.classlist.add("third");
