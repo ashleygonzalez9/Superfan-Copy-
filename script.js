@@ -73,7 +73,7 @@ function switchImage4(){
 //} 
 
 
-function resetAll(el){ 
+function resetAll(){ 
 	b.add("images/springleaves.png");
 	c.add("images/summerflowers.png");
 	d.add("images/fall_button.png");
@@ -84,7 +84,6 @@ function resetAll(el){
 
 	
 function show(el){
-	
-	document.getElementById("button") .classList.remove("invisible");
+	a.classList.remove("invisible");
 
 } 
