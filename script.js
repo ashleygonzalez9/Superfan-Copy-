@@ -11,8 +11,7 @@ var h=document.getElementById ("two");
 var i=document.getElementById ("three");
 var j=document.getElementById ("four");
 var seasons= 1 
-//array
-boxes = [b,c,d,e]
+
 
 function switchImage(){
 	  ( b.src.match("images/springleaves.png"))
@@ -75,10 +74,10 @@ function switchImage4(){
 
 
 function resetAll(el){ 
-	b.classlist.add("first");
-	c.classlist.add("second");
-	d.classlist.add("third");
-	e.classlist.add("fourth");
+	b.classlist.add( );
+	c.classlist.add( );
+	d.classlist.add( );
+	e.classlist.add( );
 }
 
 
