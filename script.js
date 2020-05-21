@@ -1,4 +1,3 @@
-// call this function when "orange-kid" is clicked!
 
 var a = document.getElementById ("button");
 var b = document.getElementById("first");
